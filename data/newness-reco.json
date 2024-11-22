@@ -1,0 +1,30 @@
+{
+  "reco": {
+    "title": "Assortment Opportunity - High-Performing Recent Products",
+    "summary": "Analysis of recently introduced products reveals several items with exceptional performance metrics. The top 10 products have generated 2,115 total units in sales with revenue of $262,999.49, demonstrating strong market acceptance and sales velocity.",
+    "recommendation": "Procurement should place additional orders for these identified products, while inventory specialists should allocate increased shelf space to accommodate their strong performance.",
+    "justification_statement": "The recommendation is supported by exceptional performance metrics across the analyzed product set, as shown in the performance indicators table below.",
+    "supporting_tables": [
+      {
+        "supporting_table_header": "Key Performance Indicators",
+        "supporting_table_body": "| Metric                    | Value      |\n|:--------------------------|:-----------||\n| Average Units per Product  | 212        |\n| Best Performing Product   | 424 units  |\n| Total Revenue Generated   | $262,999.49|\n| Total Cost of Goods      | $145,659.10|\n| Current Inventory Level   | 1,228 units|\n| Inventory Coverage        | 7 weeks    |",
+        "supporting_table_footer": "Performance metrics demonstrating strong market acceptance and sales velocity across product set."
+      },
+      {
+        "supporting_table_header": "Performance Summary - Top 10 Products",
+        "supporting_table_body": "| Metric           |      Value |\n|:-----------------|-----------:|\n| Total Units Sold |      2,115 |\n| Total Revenue    | 262,999.49 |\n| Total Cost       | 145,659.10 |\n| Total Inventory  |      1,228 |\n| Weeks on Hand    |          7 |",
+        "supporting_table_footer": "Summary statistics showing aggregate performance across key metrics for the identified top performers."
+      },
+      {
+        "supporting_table_header": "Detailed Product Performance Analysis",
+        "supporting_table_body": "| style_colour_desc                 | product_launch_date | total_sales | end_inv | rate_of_sale |\n|:----------------------------------|:-------------------|------------:|---------:|-------------:|\n| Handbag Tote bag Style 51772      | 12/17/2022        |         148 |      165 |         0.04 |\n| Handbag Backpack Style 51879      | 07/28/2022        |         123 |        0 |         0.03 |\n| Handbag Crossbody bag Style 52536 | 06/20/2022        |          99 |        0 |         0.02 |\n| Handbag Shoulder bag Style 51733  | 05/25/2021        |         160 |      179 |         0.03 |\n| Handbag Tote bag Style 52049      | 07/22/2022        |         264 |      148 |         0.01 |\n| Handbag Crossbody bag Style 53796 | 12/19/2018        |         178 |      322 |         0.10 |\n| Handbag Crossbody bag Style 51956 | 05/29/2021        |         208 |      120 |         0.01 |\n| Handbag Crossbody bag Style 51990 | 07/17/2021        |         424 |      235 |         0.01 |\n| Handbag Crossbody bag Style 45278 | 12/30/2022        |         385 |        9 |         0.00 |\n| Handbag Crossbody bag Style 49829 | 08/26/2018        |         126 |       50 |         0.03 |",
+        "supporting_table_footer": "Rate of Sale shows units sold per store per week (calculated using the last 3 periods only). Products are ranked based on a combined assessment of sales performance and introduction date."
+      }
+    ],
+    "reco_summary": "Analysis identified 10 high-performing products that combine recent introduction dates with strong sales performance. These products have demonstrated exceptional market acceptance with total sales of 2,115 units and revenue of $262,999.49. Current inventory levels suggest immediate action is needed to maintain sales momentum.",
+    "closing": "This recommendation is based on a rigorous selection methodology that:\n1. Excludes products with sales below 5 units per week\n2. Removes products from undesirable range segments (\"Carryover EOL\")\n3. Requires minimum 3 weeks of sales history\n4. Excludes products over 30 weeks old\n5. Ranks remaining products on combined metrics of sales rate and introduction date\nThe identified products represent significant opportunity for revenue growth through increased inventory investment and optimized shelf space allocation.",
+    "document_link_text": null,
+    "spreadsheet_link_text": null,
+    "email_link_text": null
+  }
+}

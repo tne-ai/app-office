@@ -1,0 +1,25 @@
+{
+  "reco": {
+    "title": "Inventory Risk Summary - Crossbody Bags",
+    "summary": "Analysis of inventory risk in the Crossbody bag category reveals significant concerns:\n\nMetric               Value\n------------------  ------------------------------------\nProduct Category     Crossbody bag\nAt-Risk Styles       Top 10 high-stock, low-sales styles\nTotal Value at Risk  199,365.56",
+    "recommendation": "Put Handbag Crossbody bag Style 50012 on clearance to address inventory risk.",
+    "justification_statement": "Style 50012 demonstrates critical underperformance:\n- Current inventory level: 280 units\n- Total sales since launch (21/08/2019): only 378 units\n- Lowest sales performance among comparable styles\n- Extended time in stock with insufficient sales velocity",
+    "supporting_tables": [
+      {
+        "supporting_table_header": "Performance Analysis of At-Risk Crossbody Bags",
+        "supporting_table_body": "| Style Colour Desc | Product Launch Date | Distinct Store Count | Max Weeks Selling | Total Sales | Rate Of Sale | Average Weekly Sales | End Inv | Sell Through | Total Cost |\n|-------------------|-------------------:|--------------------:|------------------:|------------:|-------------:|-------------------:|----------:|-------------:|------------:|\n| Handbag Crossbody bag Style 50012 | 21/08/2019 | 281 | 44 | 378 | 0.03 | 8 | 280 | 57 | 12,448.80 |\n| Handbag Crossbody bag Style 50233 | 7/1/22 | 279 | 44 | 390 | 0.03 | 8 | 254 | 61 | 21,201.38 |\n| Handbag Crossbody bag Style 46672 | 12/1/21 | 270 | 44 | 761 | 0.06 | 17 | 474 | 62 | 30,615.66 |\n| Handbag Crossbody bag Style 40761 | 19/04/2020 | 272 | 44 | 188 | 0.02 | 4 | 95 | 66 | 4,389.95 |\n| Handbag Crossbody bag Style 46724 | - | 284 | 44 | 651 | 0.05 | 14 | 244 | 73 | 22,472.40 |\n| Handbag Crossbody bag Style 40077 | 4/6/12 | 281 | 44 | 810 | 0.07 | 18 | 435 | 65 | 9,269.85 |\n| Handbag Crossbody bag Style 46648 | 8/2/22 | 271 | 44 | 899 | 0.08 | 20 | 536 | 63 | 73,153.28 |\n| Handbag Crossbody bag Style 36694 | 6/9/22 | 263 | 44 | 435 | 0.04 | 9 | 166 | 72 | 11,108.72 |\n| Handbag Crossbody bag Style 40758 | 21/05/2018 | 272 | 44 | 295 | 0.02 | 6 | 78 | 79 | 5,455.32 |\n| Handbag Crossbody bag Style 51801 | 3/12/20 | 272 | 9 | 159 | 0.06 | 17 | 270 | 37 | 9,250.20 |\n| **Totals** | | | | 4,966 | | | 2,832 | | 199,365.56 |",
+        "supporting_table_footer": "Data shows performance metrics for the top 10 at-risk styles, ranked by combined performance score. Metrics include store coverage, sales velocity, and inventory position."
+      },
+      {
+        "supporting_table_header": "Key Metrics for Style 50012",
+        "supporting_table_body": "| Metric | Value |\n|:-------|:-------|\n| Current Inventory | 280 units |\n| Total Sales Since Launch | 378 units |\n| Time in Stock | Since 21/08/2019 |\n| Rate of Sale | 0.03 |\n| Sell Through | 57% |\n| Total Cost at Risk | 12,448.80 |",
+        "supporting_table_footer": "Focused analysis of the primary target style recommended for clearance action."
+      }
+    ],
+    "reco_summary": "Analysis of Crossbody bag inventory identifies Style 50012 as the highest-risk product among the top 10 underperforming styles. With 280 units in stock and only 378 units sold since August 2019, this style represents significant inventory risk that needs immediate attention through clearance action.",
+    "closing": "This recommendation is based on a combined ranking methodology that considers both sales rate (units sold / weeks available) and current inventory levels. Style 50012 ranks as the worst performer in this analysis, indicating urgent need for inventory reduction through clearance pricing.",
+    "document_link_text": null,
+    "spreadsheet_link_text": null,
+    "email_link_text": null
+  }
+}

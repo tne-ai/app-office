@@ -1,0 +1,40 @@
+{
+  "reco": {
+    "title": "Supply Opportunity Recommendation",
+    "summary": "Based on our analysis of crossbody sales, we will suffer 350,322.15 lost sales, face inventory risk of 642.82, and should order 0.00 of product to maximize strong sales. Parameters used: Lead time: 12 weeks",
+    "recommendation": "Based on comprehensive analysis of supply chain metrics, no immediate restock orders are recommended. Focus should be on managing potential lost sales and minimal inventory risk identified.",
+    "justification_statement": "Analysis reveals three key findings:\n1. Potential lost sales of $350,322.15 across 25 products, totaling 3,047 units\n2. Minimal inventory risk of $642.82 across 53 products, affecting 7 units\n3. No products currently meeting restock criteria based on current inventory levels and sales performance",
+    "supporting_tables": [
+      {
+        "supporting_table_header": "Lost Sales from Expected Stockouts - Summary Metrics",
+        "supporting_table_body": "| Metric | Value |\n|:-------|------:|\n| Total Value | 350,322.15 |\n| Number of Products | 25 |\n| Total Units | 3,047 |",
+        "supporting_table_footer": null
+      },
+      {
+        "supporting_table_header": "Lost Sales Analysis - Top 10 Products by Value",
+        "supporting_table_body": "|               Product Description |   ROS |   End Inventory |   Weeks on Hand |   Weekly Sales |   Lost Sales Units |   Lost Sales Value |   Lost Margin |   % of Total Lost Sales |\n|----------------------------------:|------:|----------------:|----------------:|---------------:|-------------------:|-------------------:|--------------:|------------------------:|\n| Handbag Crossbody bag Style 46648 |  0.29 |             536 |            6.94 |          77.25 |                391 |          54,060.66 |        696.98 |                   15.43 |\n| Handbag Crossbody bag Style 53554 |  0.27 |               0 |            0    |          26.75 |                321 |          35,935.26 |     27,024.30 |                   10.26 |\n| Handbag Crossbody bag Style 46672 |  0.23 |             474 |            7.8  |          60.75 |                255 |          31,869.14 |     15,398.69 |                    9.1  |\n| Handbag Crossbody bag Style 53803 |  0.25 |               0 |            0    |          18.75 |                225 |          27,821.04 |     15,452.79 |                    7.94 |\n| Handbag Crossbody bag Style 53562 |  0.28 |               0 |            0    |          23.5  |                282 |          27,013.04 |      8,781.74 |                    7.71 |\n| Handbag Crossbody bag Style 43477 |  0.11 |             180 |            5.54 |          32.5  |                210 |          26,682.22 |     19,670.32 |                    7.62 |\n| Handbag Crossbody bag Style 53796 |  0.24 |             322 |            7.32 |          44    |                206 |          22,578.62 |     14,215.02 |                    6.45 |\n| Handbag Crossbody bag Style 53545 |  0.25 |               0 |            0    |          14.25 |                171 |          18,635.89 |      9,285.61 |                    5.32 |\n| Handbag Crossbody bag Style 40077 |  0.18 |             435 |            8.45 |          51.5  |                183 |          14,731.78 |     10,832.05 |                    4.21 |\n| Handbag Crossbody bag Style 50012 |  0.12 |             280 |            8.62 |          32.5  |                110 |          14,199.84 |      9,309.24 |                    4.05 |",
+        "supporting_table_footer": "Methodology: Lost sales analysis focuses on products with above-median ROS (0.094) that risk stockout before lead time. For these products, lost sales are calculated based on the gap between current weeks of hand and lead time, multiplied by weekly sales rate. Products with zero sales are excluded from lost sales calculations."
+      },
+      {
+        "supporting_table_header": "Inventory Risk - Summary Metrics",
+        "supporting_table_body": "| Metric | Value |\n|:-------|------:|\n| Total Value | 642.82 |\n| Number of Products | 53 |\n| Total Units | 7 |",
+        "supporting_table_footer": null
+      },
+      {
+        "supporting_table_header": "Inventory Risk Analysis - All Overstock Products",
+        "supporting_table_body": "|               Product Description |   ROS |   End Inventory |   Weekly Sales |   Inventory Risk Units |   Inventory Risk Value |   % of Total Risk |\n|----------------------------------:|------:|----------------:|---------------:|-----------------------:|-----------------------:|------------------:|\n| Handbag Crossbody bag Style 45278 |     0 |               5 |              0 |                      5 |                    485 |             75.41 |\n| Handbag Crossbody bag Style 49779 |     0 |               2 |              0 |                      2 |                    158 |             24.59 |",
+        "supporting_table_footer": "Methodology: Inventory risk assessment identifies excess units beyond lead time plus 4 weeks of cover, based on current sales rates. For products with zero sales, all current inventory is considered at risk. Risk value is calculated using the product's average unit retail price."
+      },
+      {
+        "supporting_table_header": "Restock Opportunities - Summary Metrics",
+        "supporting_table_body": "| Metric | Value |\n|:-------|------:|\n| Total Value | 0.00 |\n| Number of Products | 0 |\n| Total Units | 0 |",
+        "supporting_table_footer": "No restock candidate were identified\n\nMethodology: Restock analysis identifies high-performing products (above median ROS) with inventory levels between lead time and lead time plus 4 weeks of cover. Reorder quantities aim to restore stock to lead time plus 4 weeks of cover, based on current sales rates. Products with zero sales are excluded from restock recommendations."
+      }
+    ],
+    "reco_summary": "Analysis shows significant potential lost sales ($350,322.15) across 25 products, with minimal inventory risk ($642.82) in 2 products. No products currently qualify for restocking based on defined criteria. The analysis uses a 12-week lead time parameter and considers both sales performance and current inventory levels.",
+    "closing": "This comprehensive supply chain analysis identifies key areas of focus: managing potential lost sales for high-performing products, particularly in the top 10 products identified, while monitoring minimal inventory risk in two slow-moving items. No immediate restock actions are recommended based on current inventory positions and sales performance metrics.",
+    "document_link_text": null,
+    "spreadsheet_link_text": null,
+    "email_link_text": null
+  }
+}
